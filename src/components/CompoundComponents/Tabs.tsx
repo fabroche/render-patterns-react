@@ -36,4 +36,4 @@ const Tabs: React.FC<TabsProps> = ({children}) => {
     );
 };
 
-export default Tabs;
+export {Tabs};

@@ -15,4 +15,4 @@ const Tab: React.FC<TabProps> = ({label, children}) => {
     );
 };
 
-export default Tab;
+export {Tab};

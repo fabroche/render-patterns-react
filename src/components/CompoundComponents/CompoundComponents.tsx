@@ -1,5 +1,5 @@
-import Tab from "./Tab.tsx";
-import Tabs from "./Tabs.tsx";
+import {Tab} from "./Tab.tsx";
+import {Tabs} from "./Tabs.tsx";
 
 export const CompoundComponents = () => {
   return (
