@@ -19,6 +19,7 @@ export const ParentComponent = () => {
     return (
         <div>
             <UserWithLoading isLoading={true} name="fabroche"/>
+
             <UserWithLoading isLoading={false} name="fabroche"/>
         </div>
     );
