@@ -3,9 +3,11 @@ import {DataItem} from "./ContainerPresenter.d.tsx";
 import {DataPresenter} from "./DataPresenter.tsx";
 
 export const DataContainer = () => {
+
     const [data, setData] = useState<DataItem[]>([])
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState<string | null>(null)
+
     useEffect(() => {
         const fetchData = async () => {
             try {

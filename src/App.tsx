@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useCallback} from "react";
+import {useState, useEffect, useCallback} from "react";
 
 import {
     RenderProps1,
@@ -109,7 +109,7 @@ function App() {
             <footer>
                 <p>
                     <span>Made with 💚 and 👩🏻‍💻</span>
-                    <span>by Teffcode and Platzi</span>
+                    <span>by Fabroche, Teffcode and Platzi</span>
                 </p>
             </footer>
         </>
